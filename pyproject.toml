@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Deployment ML model"
+version = "0.0.1"
+description = ""
+authors = ["jonjimenez99 <andrescover.99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-learn = ">= 1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
